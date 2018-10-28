@@ -21,3 +21,13 @@
 .group-radio radio .radio:first-child {
 	margin-top: 0;
 }
+
+footer {
+	background-color: #333333;
+	color: white;
+	padding: 20px;
+}
+
+footer address:first-child {
+    margin-bottom: 0px;
+}
