@@ -5,19 +5,23 @@ body {
 }
 
 header {
-    background-image: url(../img/castelo.jpg);;
+    background-image: url(../img/castelo.jpg);
     background-size: cover;
     background-position: top center;
     height: 100%;
+    position: relative;
 }
-
 
 .topCasaFina-banner {
     color: white;
     background-color: #00000090;
     padding: 20px;
-    width: 80%;
     border-radius: 5px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 .topCasaFina-banner h1 {
@@ -26,34 +30,34 @@ header {
 }
 
 #paineis-sobre-nos {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .titulo-depoimento {
-	background-color: #0275D8;
-	padding-top: 25px;
+    background-color: #0275D8;
+    padding-top: 25px;
     padding-left: 15px;
-	padding-bottom: 25px;
-	margin-bottom: 0px;
-	color: white;
-	font-size: 24px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 24px;
 }
 
 .contato-select,
 .group-radio {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .group-radio radio .radio:first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 footer {
-	background-color: #333333;
-	color: white;
-	padding: 1em;
+    background-color: #333333;
+    color: white;
+    padding: 1em;
     margin-top: 10px;
 }
 
