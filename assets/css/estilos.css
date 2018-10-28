@@ -22,6 +22,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+    transition: 0.3s;
 }
 
 .topCasaFina-banner h1 {
