@@ -34,6 +34,12 @@ header {
     margin-top: 20px;
 }
 
+@media(min-width: 768px) {
+    #paineis-sobre-nos {
+        margin-top: 0;
+    }
+}
+
 .titulo-depoimento {
     background-color: #0275D8;
     padding-top: 25px;
